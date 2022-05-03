@@ -1,0 +1,107 @@
+.clients {
+  background-color: var(--light-color);
+  .wrapper {
+    .row {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__list {
+    .client {
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+      opacity: 0.6;
+      img {
+        width: 143px;
+        height: 143px;
+      }
+    }
+  }
+}
+// .clients {
+//   background-position: 100% 0;
+// }
+// .clients .wrapper {
+//   display: -ms-flexbox;
+//   display: flex;
+//   -ms-flex-direction: column;
+//   flex-direction: column;
+//   padding: 3rem;
+// }
+// .clients .testimonial {
+//   position: relative;
+// }
+// .clients .testimonial .swiper-pagination-bullet {
+//   border-color: #fff;
+// }
+// .clients .testimonial .icon {
+//   margin-bottom: 2rem;
+// }
+// .clients .testimonial li {
+//   display: -ms-flexbox;
+//   display: flex;
+//   -ms-flex-direction: column;
+//   flex-direction: column;
+//   padding: 2rem;
+// }
+// .clients .testimonial li .quote {
+//   margin-bottom: 2rem;
+//   color: var(--light);
+//   text-align: center;
+// }
+// .clients .testimonial li .subtitle {
+//   margin: 0;
+// }
+// .clients__list {
+//   display: -ms-grid;
+//   display: grid;
+//   -ms-grid-columns: repeat;
+//   grid-template-columns: repeat;
+//   -ms-grid-columns: (minmax(160px, 1fr)) [auto-fit];
+//   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+//   -ms-flex-align: center;
+//   grid-gap: 4rem 0;
+//   align-items: center;
+// }
+// .clients__list li {
+//   margin: 0 1rem;
+//   opacity: 0.5;
+//   transition: opacity 0.2s ease-in;
+//   text-align: center;
+// }
+// .clients__list li:hover {
+//   opacity: 1;
+// }
+// .clients__list img {
+//   width: 100%;
+//   max-width: 160px;
+// }
+// @media screen and (min-width: 64em) {
+//   .clients {
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-align: center;
+//     align-items: center;
+//   }
+//   .clients .wrapper {
+//     display: -ms-grid;
+//     display: grid;
+//     -ms-grid-columns: 20% 10% 50%;
+//     grid-template-columns: 20% 10% 50%;
+//     -ms-grid-rows: 20% auto;
+//     grid-template-rows: 20% auto;
+//     width: 100%;
+//   }
+//   .clients .section__title {
+//     grid-row: 1/2;
+//     grid-column: 2/4;
+//   }
+//   .clients__content {
+//     grid-row: 2/3;
+//     grid-column: 3/4;
+//     overflow: hidden;
+//   }
+// }

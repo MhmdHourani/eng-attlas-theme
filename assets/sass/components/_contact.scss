@@ -1,0 +1,115 @@
+.contact {
+  position: relative;
+  .wrapper {
+    // padding: 0 15px;
+  }
+  .row {
+    justify-content: center;
+  }
+  &__content {
+    margin-top: 40px;
+  }
+  &__card {
+    background-color: var(--gray1-color);
+    font-size: 1rem;
+    .card-info {
+      padding: 25px;
+      & > * {
+        color: var(--light-color);
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      strong {
+        font-size: var(--h5-font-size);
+        margin-top: 30px;
+        display: block;
+      }
+    }
+    .card-form {
+      padding: 25px;
+      background-color: var(--darkO-color);
+      .form-field {
+        color: var(--white-color);
+        margin-bottom: 30px;
+        position: relative;
+        label {
+          transition: all 0.5s;
+          font-weight: var(--light);
+          display: inline-block;
+        }
+        &:focus-within {
+          label {
+            transform: scale(0.95) translateY(-10px);
+            color: var(--gold-color);
+          }
+          &:after {
+            background-color: var(--gold-color);
+          }
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 1px;
+          background-color: var(--gray-color);
+          bottom: 0;
+          left: 0;
+          transition: all 0.5s;
+        }
+        input,
+        textarea {
+          position: relative;
+          background: transparent;
+          width: 100%;
+          border: none;
+          outline: none;
+          padding: 2px 0;
+          color: var(--white-color);
+        }
+      }
+    }
+    .btn-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .submit-btn {
+        color: var(--light-color);
+        padding: 10px 50px;
+        background-color: var(--gold-color);
+        position: relative;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: var(--font-size-18);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: var(--light-color);
+          color: var(--gold-color);
+          box-shadow: rgba(153, 129, 101, 0.5) 0px 4px 24px;
+        }
+      }
+    }
+  }
+}
+
+// .card-info-wrap {
+//   height: 100%;
+//   position: relative;
+//   .contact__map {
+//     position: absolute;
+//     bottom: 0;
+//     inset-inline-start: 0;
+//     width: 100%;
+//     transform: translateY(-25%);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     img {
+//       max-width: 80%;
+//       height: auto;
+//     }
+//   }
+// }

@@ -1,0 +1,191 @@
+.documents {
+  background-color: var(--light-color);
+  main {
+    padding: 150px 0 50px 0;
+    h2 {
+      text-align: center;
+    }
+  }
+  &__header {
+    text-align: center;
+  }
+  &__content {
+    margin-top: 80px;
+  }
+  &__files {
+    margin-bottom: 30px;
+    h3 {
+      position: relative;
+      width: fit-content;
+      margin-bottom: 30px;
+      &::after {
+        content: '';
+        width: 70%;
+        height: 3px;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        background-color: var(--gold-color);
+      }
+    }
+    .row {
+      & > div {
+        @include md {
+          padding: 0 7.5px;
+        }
+        margin-bottom: 20px;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover {
+          .item {
+            border: 5px solid var(--gold-color);
+            &:after {
+              transform: scale(1.2);
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+    .list {
+      .item {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        z-index: 100;
+        padding: 5px 15px;
+        &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url(../images/document/bg.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 50%;
+          pointer-events: none;
+          opacity: 0.8;
+          transition: transform 5s ease;
+          z-index: 10;
+        }
+        p {
+          position: relative;
+          z-index: 100;
+          color: var(--light-color);
+          margin-bottom: 0;
+          font-weight: var(--bold);
+          //   font-size: var(--h4-font-size);
+        }
+      }
+    }
+  }
+}
+
+// .documents__files li {
+//   height: 100px;
+//   margin-bottom: 1rem;
+//   position: relative;
+//   background-color: var(--dark);
+//   overflow: hidden;
+//   transition: all 0.3s ease;
+//   opacity: 0.9;
+// }
+// .documents__files li:after {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-image: url(../images/projects/1/bg.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: 50%;
+//   pointer-events: none;
+//   opacity: 0.5;
+//   transition: transform 5s ease;
+// }
+// .documents__files li:hover {
+//   border: 5px solid var(--gold);
+//   box-shadow: 0 10px 30px 2px rgba(0, 0, 0, 0.3);
+//   transform: scale(1.04);
+//   opacity: 1;
+// }
+// .documents__files li:hover:after {
+//   transform: scale(1.4);
+// }
+// .documents__files li p {
+//   position: relative;
+//   z-index: 1;
+//   width: 100%;
+//   height: 100%;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -ms-flex-pack: center;
+//   justify-content: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   color: var(--light);
+//   text-align: center;
+//   font-size: 0.86rem;
+//   padding: 0 0.86rem;
+//   pointer-events: none;
+//   margin: 0;
+// }
+// .documents__files li > div {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   background: blue;
+//   cursor: pointer;
+//   opacity: 0;
+// }
+// .documents__logos {
+//   padding: 4rem 0;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -ms-flex-pack: center;
+//   justify-content: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+// }
+// .documents__logos li {
+//   margin: 0 20px;
+// }
+// .documents__logos img {
+//   max-width: 250px;
+// }
+// @media screen and (min-width: 30em) {
+//   .documents__header {
+//     position: relative;
+//   }
+//   .documents__header__title {
+//     margin-right: 2rem;
+//     width: 40%;
+//     font-size: 2rem;
+//   }
+//   .documents__files ul {
+//     -ms-grid-columns: (1fr) [3];
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 0.5rem;
+//   }
+//   .documents__files li {
+//     height: 150px;
+//   }
+//   .documents__files a {
+//     padding: 0 1rem;
+//   }
+// }
+// @media screen and (min-width: 64em) {
+//   .documents__files ul {
+//     -ms-grid-columns: (1fr) [4];
+//     grid-template-columns: repeat(4, 1fr);
+//   }
+// }

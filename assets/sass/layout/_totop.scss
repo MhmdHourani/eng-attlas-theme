@@ -1,0 +1,37 @@
+.totop {
+  height: 9px;
+  opacity: 0;
+  border: 0;
+  outline: 0;
+  position: fixed;
+  inset-inline-start: -60px;
+  width: 49px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 90%;
+  background-color: var(--dark-color);
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 10px 29px 0px;
+  &-visible {
+    inset-inline-start: 30px;
+    opacity: 1;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--light-color);
+    font-weight: bold;
+    transform: all 0.3s ease;
+  }
+  &:hover {
+    background-color: var(--light-color);
+    svg {
+      fill: var(--gold-color);
+    }
+  }
+}

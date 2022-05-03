@@ -1,0 +1,23 @@
+.home-section {
+  background-position: 100% 0;
+  .wrapper {
+    padding: 3rem;
+  }
+  @include lg-mobile {
+    .wrapper {
+      padding: 0;
+    }
+    .section__content {
+      overflow: hidden;
+    }
+  }
+}
+.image-content {
+  text-align: center;
+  img {
+    max-width: 36rem;
+    @include md {
+      max-width: 450px;
+    }
+  }
+}
