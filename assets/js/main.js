@@ -108,3 +108,27 @@ $(document).ready(function () {
     }
   });
 });
+
+var scrollElements = document.getElementsByClassName('scrollbar');
+if (scrollElements.length > 0) {
+  scrollElements.forEach(function (element) {
+    new SimpleBar(element, {
+      autoHide: true,
+    });
+  });
+}
+
+mixitup($('#portfolio-list'), {
+  load: {
+    filter: '*',
+  },
+});
+
+function openCity(evt, position) {
+  $('.tabcontent').removeClass('active');
+  $('.tablink').removeClass('active');
+  $(`#${position}`).addClass('active');
+  evt.currentTarget.className += ' active';
+}
+
+new WOW().init();
