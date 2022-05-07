@@ -1,19 +1,19 @@
 window.onload = function () {
-  if ($('#preloader').length) {
-    $('body').attr('data-loaded', 'true');
+  if (jQuery('#preloader').length) {
+    jQuery('body').attr('data-loaded', 'true');
   }
 };
 // Hide Loading Box (Preloader)
-$(document).ready(function () {
-  $('#nav-trigger').on('click', function () {
-    if ($('#header').attr('data-navopen') === 'true') {
-      $('#header').attr('data-navopen', 'false');
+jQuery(document).ready(function () {
+  jQuery('#nav-trigger').on('click', function () {
+    if (jQuery('#header').attr('data-navopen') === 'true') {
+      jQuery('#header').attr('data-navopen', 'false');
     } else {
-      $('#header').attr('data-navopen', 'true');
+      jQuery('#header').attr('data-navopen', 'true');
     }
   });
-  if ($('#hero-slider').length) {
-    $('#hero-slider').owlCarousel({
+  if (jQuery('#hero-slider').length) {
+    jQuery('#hero-slider').owlCarousel({
       loop: true,
       animateOut: 'fadeOut',
       margin: 0,
@@ -23,15 +23,15 @@ $(document).ready(function () {
       autoplayTimeout: 7000,
       items: 1,
       dots: false,
-      // rtl: $('body').css('direction') === 'rtl',
+      // rtl: jQuery('body').css('direction') === 'rtl',
       lazyLoad: true,
       animateOut: 'fadeOut',
       mouseDrag: false,
       touchDrag: false,
     });
   }
-  if ($('#clients-carousel').length) {
-    $('#clients-carousel').owlCarousel({
+  if (jQuery('#clients-carousel').length) {
+    jQuery('#clients-carousel').owlCarousel({
       items: 8,
       loop: true,
       margin: 20,
@@ -41,7 +41,7 @@ $(document).ready(function () {
       autoplaySpeed: 2200,
       autoplayTimeout: 2200,
       autoplayHoverPause: false,
-      rtl: $('body').css('direction') === 'rtl',
+      rtl: jQuery('body').css('direction') === 'rtl',
       responsive: {
         0: {
           items: 2,
@@ -66,8 +66,8 @@ $(document).ready(function () {
   }
 
   //  to top button add and remove on scroll
-  $(window).scroll(function () {
-    var topTopElement = $('#totop');
+  jQuery(window).scroll(function () {
+    var topTopElement = jQuery('#totop');
     var toTopOffset = topTopElement.offset().top;
     var toTopHidden = 1000;
 
@@ -80,31 +80,32 @@ $(document).ready(function () {
 
   /* to top button animation */
 
-  $('#totop').on('click', function () {
-    $('html, body').animate({ scrollTop: 0 }, '600');
+  jQuery('#totop').on('click', function () {
+    jQuery('html, body').animate({ scrollTop: 0 }, '600');
   });
 
   // go to the section related with links
-  $('.menu-item a').on('click', function (event) {
+  jQuery('.menu-item a').on('click', function (event) {
     console.log(event);
-    var $anchor = $(this);
-    console.log($anchor.attr('href'));
-    $('html, body').animate(
+    var jQueryanchor = jQuery(this);
+    console.log(jQueryanchor.attr('href'));
+    jQuery('html, body').animate(
       {
         scrollTop:
-          $('#' + $anchor.attr('href').split('#')[1]).offset().top + 'px',
+          jQuery('#' + jQueryanchor.attr('href').split('#')[1]).offset().top +
+          'px',
       },
       500
     );
   });
   // navbar sticky functionality
-  var menuPosition = $('#header').offset().top;
-  $(window).scroll(function () {
-    var scrollValue = $(window).scrollTop();
+  var menuPosition = jQuery('#header').offset().top;
+  jQuery(window).scroll(function () {
+    var scrollValue = jQuery(window).scrollTop();
     if (scrollValue > menuPosition) {
-      $('#header').addClass('sticky');
+      jQuery('#header').addClass('sticky');
     } else {
-      $('#header').removeClass('sticky');
+      jQuery('#header').removeClass('sticky');
     }
   });
 });
@@ -118,16 +119,16 @@ if (scrollElements.length > 0) {
   });
 }
 
-mixitup($('#portfolio-list'), {
+mixitup(jQuery('#portfolio-list'), {
   load: {
     filter: '*',
   },
 });
 
 function openCity(evt, position) {
-  $('.tabcontent').removeClass('active');
-  $('.tablink').removeClass('active');
-  $(`#${position}`).addClass('active');
+  jQuery('.tabcontent').removeClass('active');
+  jQuery('.tablink').removeClass('active');
+  jQuery(`#jQuery{position}`).addClass('active');
   evt.currentTarget.className += ' active';
 }
 
