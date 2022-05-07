@@ -54,7 +54,7 @@
                                 <h3>Vision</h3>
                                 <p>
                                     To become the most distinguished company in the management
-                                    industry ​
+                                    industry
                                 </p>
                             </div>
                         </div>
@@ -71,9 +71,9 @@
                                 <p class="subtitle"></p>
                                 <h3>Mission</h3>
                                 <p>
-                                    To develop innovative and​ high-quality real estate
+                                    To develop innovative and high-quality real estate
                                     projects that contribute to societies development and
-                                    attaining favorable returns for customers​
+                                    attaining favorable returns for customers
                                 </p>
                             </div>
                         </div>
@@ -131,13 +131,10 @@
             </div>
         </section>
         <!-- services -->
-        <section id="services" class="section services section-padding section--dark-bg" style="
-            background: url(<?= get_template_directory_uri() ?>/assets/images/contact/pattern.png) repeat center
-              #222222;
-          ">
+        <section id="services" class="section services section-padding section--dark-bg" style="background: url(<?= get_template_directory_uri() ?>/assets/images/contact/pattern.png) repeat center #222222;">
             <div class="container">
                 <div class="section__number wow animate__animated animate__fadeInDown light">
-                    <h2>About Sumou</h2>
+                    <h2>About Alattas</h2>
                 </div>
                 <div class="services__list">
                     <div class="row">
@@ -147,11 +144,11 @@
                                     <h3>Ownership &amp; Activity</h3>
                                     <div class="divider"></div>
                                     <p>
-                                        Adopting its name as a principle, SUMOU has conducted
+                                        Adopting its name as a principle, Alattas has conducted
                                         its business with uniqueness in activeness, and
                                         exploited its experience for excellence to develop
                                         innovatively, execute with quality, and invested with an
-                                        intelligent investment methodology.​
+                                        intelligent investment methodology.
                                     </p>
                                 </div>
                             </div>
@@ -162,14 +159,14 @@
                                     <h3>Uniqueness and Distinction</h3>
                                     <div class="divider"></div>
                                     <p>
-                                        Sumou has the unique ability to invent and innovate in
-                                        the area of development. Sumou has accomplished
+                                        Alattas has the unique ability to invent and innovate in
+                                        the area of development. Alattas has accomplished
                                         qualitative real estate projects in various fields.
-                                        Sumou has provided an integrated development system,
+                                        Alattas has provided an integrated development system,
                                         starting with opportunities consideration, through
                                         planning, engineering, financial planning, marketing
                                         strategy, and executing with professional project
-                                        management, to project delivery. ​
+                                        management, to project delivery.
                                     </p>
                                 </div>
                             </div>
@@ -183,9 +180,9 @@
                                         Our local, regional and international operations
                                         entitled us to win many prestigious awards for our
                                         outstanding performance in the real estate industry.
-                                        Since 2008, Sumou has developed about 7 million square
+                                        Since 2008, Alattas has developed about 7 million square
                                         meters of land and is working currently on projects
-                                        adding 45 million square meters.​
+                                        adding 45 million square meters.
                                     </p>
                                 </div>
                             </div>
@@ -197,11 +194,11 @@
                                     <h3>Aspirations</h3>
                                     <div class="divider"></div>
                                     <p>
-                                        Sumou is currently working on develop large mixed-use
+                                        Alattas is currently working on develop large mixed-use
                                         projects that shall meet the requirements and
                                         expectations both customers and investors, aiming to
                                         fulfill the needs of the community and future
-                                        generations.​
+                                        generations.
                                     </p>
                                 </div>
                             </div>
@@ -218,13 +215,13 @@
         <section id="strategy" class="section home-section image-content section-padding" data-scroll-index="2">
             <div class="container">
                 <div class="section__number wow animate__animated animate__fadeInDown">
-                    <h2>Sumou Strategy</h2>
+                    <h2>Alattas Strategy</h2>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="section__content">
                             <figure class="width-100 wow animate__animated animate__fadeInUp">
-                                <img src="<?= get_template_directory_uri() ?>/assets/images/strategy/strategy-2.svg" title="Sumou Strategy" alt="Sumou Strategy" data-wow-delay="1.6s" />
+                                <img src="<?= get_template_directory_uri() ?>/assets/images/strategy/strategy-2.svg" title="Alattas Strategy" alt="Alattas Strategy" data-wow-delay="1.6s" />
                             </figure>
                         </div>
                     </div>
@@ -240,7 +237,7 @@
                 <div class="section__content">
                     <div class="text-content wow animate__animated animate__fadeInUp">
                         <div class="section__title">
-                            <h3>Our Development Strategy​</h3>
+                            <h3>Our Development Strategy</h3>
                         </div>
                         <p>
                             Our project development strategy involves planning, designing,
@@ -252,12 +249,12 @@
                             process of design; accreditation by the authorities, then the
                             project management execution; and delivery; and finally
                             provision of solutions for management, operation, and
-                            maintenance.​
+                            maintenance.
                         </p>
                     </div>
                     <div class="text-content wow animate__animated animate__fadeInUp">
                         <div class="section__title">
-                            <h3>Our Project Management​</h3>
+                            <h3>Our Project Management</h3>
                         </div>
                         <p>
                             Our projects are managed through customizing a special
@@ -269,8 +266,8 @@
                             practices, with a local vision to generate real estate
                             products, within the minimum time, that are cost-conscious and
                             high quality, contributing to the development of the region
-                            and society in accordance with the Kingdom’s Vision 2030, and
-                            attaining lucrative returns for the clients.​
+                            and society in accordance with the Kingdom's Vision 2030, and
+                            attaining lucrative returns for the clients.
                         </p>
                     </div>
                 </div>
@@ -288,13 +285,13 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="number-content-wrap">
                                 <span class="number">9</span>
-                                <p class="title">Cities in Kingdom of Saudi Arabia​</p>
+                                <p class="title">Cities in Kingdom of Saudi Arabia</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="number-content-wrap">
                                 <span class="number">3</span>
-                                <p class="title">Structural development of cities​</p>
+                                <p class="title">Structural development of cities</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
@@ -306,25 +303,25 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="number-content-wrap">
                                 <span class="number">+20</span>
-                                <p class="title">Development​ projects​</p>
+                                <p class="title">Development projects</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="number-content-wrap">
                                 <span class="number">+20</span>
-                                <p class="title">Marketing​ and sale projects​</p>
+                                <p class="title">Marketing and sale projects</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="number-content-wrap">
                                 <span class="number">+19</span>
-                                <p class="title">Infrastructure Projects​</p>
+                                <p class="title">Infrastructure Projects</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="number-content-wrap">
                                 <span class="number">+6</span>
-                                <p class="title">Superstructure Projects​</p>
+                                <p class="title">Superstructure Projects</p>
                             </div>
                         </div>
                     </div>
@@ -383,9 +380,7 @@
                                     <div class="content">
                                         <h3>Ali Makkah</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix central-en">
@@ -403,20 +398,16 @@
                                     <div class="content">
                                         <h3>Rawaf</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
                                 <a title="project1" title="Ali Makkah" href="./project" class="portfolio__item">
                                     <img src="<?= get_template_directory_uri() ?>/assets/images/portfolio/image1.jpg" alt="project1" />
                                     <div class="content">
-                                        <h3>Sumou Aveneu</h3>
+                                        <h3>Alattas Aveneu</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix northern-en">
@@ -425,9 +416,7 @@
                                     <div class="content">
                                         <h3>Buisness Oasis</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix western-en">
@@ -436,9 +425,7 @@
                                     <div class="content">
                                         <h3>Arzan</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
@@ -447,9 +434,7 @@
                                     <div class="content">
                                         <h3>Masharef Akhozama</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix northern-en">
@@ -458,9 +443,7 @@
                                     <div class="content">
                                         <h3>Rofan</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix central-en">
@@ -469,9 +452,7 @@
                                     <div class="content">
                                         <h3>Al Joudi</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6 mix central-en">
@@ -480,20 +461,16 @@
                                     <div class="content">
                                         <h3>Indus-comm</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <a title="project1" title="Ali Makkah" href="./project" class="portfolio__item">
                                     <img src="<?= get_template_directory_uri() ?>/assets/images/portfolio/image1.jpg" alt="project1" />
                                     <div class="content">
-                                        <h3>Dar Sumou</h3>
+                                        <h3>Dar Alattas</h3>
                                     </div>
-                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="
-                          background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);
-                        "></div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
                                 </a>
                             </div>
                         </div>
@@ -517,7 +494,7 @@
                         </li>
                         <li>
                             <button class="btn tablink" onclick="openCity(event, 'ceo')">
-                                Chief Executive Officer​
+                                Chief Executive Officer
                             </button>
                         </li>
                     </ul>
@@ -535,66 +512,66 @@
                             <div class="col-lg-9">
                                 <div class="info-general__content" data-animate="true">
                                     <h2>Chairman</h2>
-                                    <p class="subtitle">Ayed Bin Farhan Al Qahtani​</p>
+                                    <p class="subtitle">Ayed Bin Farhan Al Qahtani</p>
                                     <div class="text-wrap scrollbar">
                                         <p>
                                             In our journey to contribute to the well-being of our
                                             community, participate in the national development,
                                             and build communities with sophisticated and
-                                            integrated lifestyles, Sumou Real Estate was
+                                            integrated lifestyles, Alattas Real Estate was
                                             established in 2007 and was listed as the first public
                                             real estate company in the Parallel Market (Nomu) to
                                             contribute to building lives full of luxury and
                                             progress and filled with hope for communities full of
-                                            happiness and modern integrated lifestyles. ​<br />
+                                            happiness and modern integrated lifestyles. <br />
                                             <br />
-                                            From this point of view, Sumou has sought to improve
+                                            From this point of view, Alattas has sought to improve
                                             individual and family choices and handle them in
                                             various modern ways by developing many neighborhoods
                                             and projects in a modern way that meets all needs and
                                             aspirations and transcends the life of the
-                                            community.​<br />
+                                            community.<br />
                                             <br />
-                                            With a renewed vision and creative thinking, Sumou
+                                            With a renewed vision and creative thinking, Alattas
                                             Real Estate made a leap in real estate development and
                                             made the real estate sector more attractive to capital
                                             investors, which provided real estate products bearing
                                             the character of excellence, creativity, and
-                                            innovation ​<br />
-                                            ​<br />
+                                            innovation <br />
+                                            <br />
                                             This was reflected in the social and civilized
-                                            environment to the extent that Sumou Real Estate
+                                            environment to the extent that Alattas Real Estate
                                             became one of the most prominent real estate
                                             development companies that mixed experience with
                                             authenticity and modernity to provide a pioneering
                                             model that placed it among the most reliable companies
-                                            in the sector.​<br />
+                                            in the sector.<br />
                                             <br />
                                             This would not have happened without scientific and
                                             administrative work and efforts that accommodates the
                                             developments and trends of the real estate market and,
-                                            at the same time, keeps pace with the country’s
-                                            approaches in real estate development. This led Sumou
+                                            at the same time, keeps pace with the country's
+                                            approaches in real estate development. This led Alattas
                                             to implement a package of projects based on its
                                             philosophy of innovation and creativity, through
                                             unique real estate products that fulfill the
                                             objectives of social development and achieve
                                             profitable returns for both investors and customers.
-                                            Sumou began with the Eastern Region and has extended
+                                            Alattas began with the Eastern Region and has extended
                                             itself to Makkah, in addition to many other projects
                                             in other regions of the Kingdom, to achieve harmony
-                                            with national vision 2030.​<br />
+                                            with national vision 2030.<br />
                                             <br />
-                                            ​Through Sumou's business, we do not seek just
+                                            Through Alattas's business, we do not seek just
                                             excellence, but rather uniqueness via exploring and
                                             studying opportunities through tracking future trends,
                                             implementing projects with the highest standards of
                                             quality, modern engineering planning, scientific
                                             management, and project innovation, in order to be an
                                             active partner in building a bright future of our
-                                            community.​<br />
+                                            community.<br />
                                             <br />
-                                            In addition to that, in the near and far future, Sumou
+                                            In addition to that, in the near and far future, Alattas
                                             seek to increase brilliance and creativity by
                                             continuing the outstanding performance in real estate
                                             development through the implementation, innovation,
@@ -602,7 +579,7 @@
                                             pace with the spirit of the future and the modern life
                                             of individuals, which would, achieve the hopes of our
                                             communities, partners, and customers, promote the
-                                            national economy, and achieve the KSA Vision 2030.​
+                                            national economy, and achieve the KSA Vision 2030.
                                         </p>
                                     </div>
                                 </div>
@@ -621,22 +598,24 @@
                             <div class="col-lg-9">
                                 <div class="info-general__content" data-animate="true">
                                     <h2>CEO</h2>
-                                    <p class="subtitle">Eng. Jarallah Al Amrah​ ​</p>
+                                    <p class="subtitle">Eng. Jarallah Al Amrah </p>
                                     <div class="text-wrap scrollbar">
                                         <p>
-                                            Sumou Real Estate "Vision.. Strategy..
-                                            Achievement"​<br />
+                                            Alattas Real Estate "Vision.. Strategy..
+                                            Achievement"
                                             <br />
-                                            ​Sumou's success in the real estate development
+                                            <br />
+                                            Alattas's success in the real estate development
                                             business came as a result of careful and thoughtful
                                             planning, a promising and ambitious vision of the
                                             future, and most importantly the ability to be
                                             creative and innovative and to provide quality real
                                             estate products that meet exceed the expectations of
                                             the aspirations of the nation, the citizens, and the
-                                            investor.​<br />
+                                            investor.
                                             <br />
-                                            Sumou was keen to achieve success since its inception.
+                                            <br />
+                                            Alattas was keen to achieve success since its inception.
                                             It has set specific goals to achieve success in the
                                             shortest way possible, following a precise scientific
                                             strategy and experience from concrete and previous
@@ -644,48 +623,52 @@
                                             specializations and distinctive competencies, of which
                                             each performs its duty and role in an integrative way
                                             with other roles, to eventually achieve the larger and
-                                            desired goal of Sumou. Here I would like to emphasize
+                                            desired goal of Alattas. Here I would like to emphasize
                                             that this strategy was our means to achieve what we
-                                            sought and worked for over the past years.​<br />
+                                            sought and worked for over the past years.
                                             <br />
-                                            ​Sumou's development strategy was based on finding
+                                            <br />
+                                            Alattas's development strategy was based on finding
                                             qualitative initiatives to implement nontraditional
-                                            projects in our beloved Kingdom. Sumou, whose projects
+                                            projects in our beloved Kingdom. Alattas, whose projects
                                             are referred to as the structure, was keen to have
                                             tangible returns for the country, the citizens, and
-                                            the customers. ​<br />
+                                            the customers.
+                                            <br />
                                             <br />
                                             In all projects we have implemented so far, relying on
                                             national cadres and competencies, we succeeded in
                                             shortening the way, and worked with perseverance and
                                             high professionalism to reach our desired results.
-                                            Sumou's strategy has also succeeded in building
+                                            Alattas's strategy has also succeeded in building
                                             important partnerships with the government sector,
-                                            which placed trust in Sumou's abilities, capabilities,
-                                            and experienced leaders, and gave Sumou the
+                                            which placed trust in Alattas's abilities, capabilities,
+                                            and experienced leaders, and gave Alattas the
                                             opportunity to participate in building the country, by
                                             implementing mega projects, starting from the Eastern
                                             Region and extending to Makkah, in addition to many
                                             other projects in other regions of the Kingdom, to
-                                            achieve harmony with national vision 2030.​<br />
+                                            achieve harmony with national vision 2030.
                                             <br />
-                                            ​What "Sumou" achieved over these past years is an
+                                            <br />
+                                            What "Alattas" achieved over these past years is an
                                             honorable image of a leading real estate development
                                             management company, because we provide the best
                                             service to our customers, develop innovatively,
                                             implement with quality, invest with feasibility, and
                                             achieve the highest returns for our customers and
                                             shareholders, and we are now listed in the Saudi stock
-                                            market.​<br />
+                                            market.
                                             <br />
-                                            ​ In conclusion, Sumou has adopted its name as a
+                                            <br />
+                                            In conclusion, Alattas has adopted its name as a
                                             principle, conducted its business for uniqueness, and
                                             exploited its experience for excellence to become the
                                             most distinguished and well known in the real estate
                                             industry and to develop innovative high quality real
                                             estate projects that contribute to community
                                             development and bring the highest returns for
-                                            customers and shareholders.​
+                                            customers and shareholders.
                                         </p>
                                     </div>
                                 </div>
@@ -755,20 +738,19 @@
                                 <div class="card-info-wrap">
                                     <div class="card-info">
                                         <p>Kingdom of Saudi Arabia</p>
-                                        <p>Sumou Tower</p>
+                                        <p>Alattas Tower</p>
 
                                         <strong>Call Center:</strong>
                                         <p>+966-13-8878888</p>
                                         <p>+966-538077888</p>
 
                                         <p>
-                                            <a href="mailto:info@sumou.com.sa" style="color: white" target="_blank" rel="noopener noreferrer">info@sumou.com.sa</a>
+                                            <a href="mailto:info@Alattas.com.sa" style="color: white" target="_blank" rel="noopener noreferrer">info@Alattas.com.sa</a>
                                         </p>
                                     </div>
-                                    <!-- <div class="contact__map">
-                                                                <img class="wow fadeInUp" src="<?= get_template_directory_uri() ?>/assets/images/contact/map.png"
-                                                                    loading="lazy" alt="soumou saudi map">
-                                                            </div> -->
+                                    <div class="contact__map">
+                                        <img class="wow fadeInUp" src="<?= get_template_directory_uri() ?>/assets/images/contact/map.png" loading="lazy" alt="soumou saudi map">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">

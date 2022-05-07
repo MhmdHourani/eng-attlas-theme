@@ -100,7 +100,7 @@
                             <a class="AGC active" title="سمو العربية">ع</a>
                         </li>
                         <li>
-                            <a class="AGC" title="sumou" href="./ltr/index.html">E</a>
+                            <a class="AGC" title="Alattas" href="./ltr/index.html">E</a>
                         </li>
                     </ul>
                 </div>
