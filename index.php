@@ -1,14 +1,4 @@
-<?php get_header();
-
-// if (have_posts()) {
-//     while (have_posts()) {
-//         the_post();
-//         the_title(',');
-//         echo   "<br/>";
-//         echo   "<br/>";
-//     }
-// }
-?>
+<?php get_header(); ?>
 <div class="page">
     <main class="main" role="main">
         <section class="section hero full-height" data-scroll-index="0" data-module="hero">
@@ -16,13 +6,12 @@
                 <div class="hero__slider full-height" data-slider="fade" data-module="slider">
                     <div id="hero-slider" class="owl-carousel owl-theme">
                         <div class="item full-height">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/hero/1.webp" title="Together we evolve" alt="Together we evolve" />
-                        </div>
-                        <div class="item full-height">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/hero/2.webp" title="Together we evolve" alt="Together we evolve" />
-                        </div>
-                        <div class="item full-height">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/hero/3.jpg" title="Together we evolve" alt="Together we evolve" />
+                            <div class="video-container">
+                                <video loop autoplay muted playsinline disablepictureinpicture controlslist="nodownload">
+                                    <source src="<?= get_template_directory_uri() ?>/assets/video.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
                         </div>
                     </div>
                     <div class="hero__content full-height">
@@ -36,63 +25,34 @@
                 </div>
             </div>
         </section>
-
         <!-- about -->
         <section id="about" class="section about" data-scroll-index="1">
             <div class="about__three-boxes animate__fadeInUp wow animate__animated">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="gold-bg about-card bg-cover" style="
-                    background-image: linear-gradient(
-                        rgba(174, 137, 93, 0.7),
-                        var(--gold-color)
-                      ),
-                      url(<?= get_template_directory_uri() ?>/assets/images/services/services__image-1.jpg);
-                  ">
+                        <div class="gold-bg about-card bg-cover" style="background-image: linear-gradient(rgba(174, 137, 93, 0.7), var(--gold-color)), url(<?= get_template_directory_uri() ?>/assets/images/services/services__image-1.jpg); ">
                             <div class="icon-box">
                                 <p class="subtitle"></p>
-                                <h3>Vision</h3>
-                                <p>
-                                    To become the most distinguished company in the management
-                                    industry
-                                </p>
+                                <h3>رؤيتنا</h3>
+                                <p>أن نصل إلى الريادة في مجال التصميم العصري والتطوير والاستثمار العقاري وأن نكون نقطة بداية لكل مطور في تنفيذ الوحدات السكنية في المملكة العربية السعودية بمواصفات ومقاييس تناسب هذه المرحلة لنكون معاً لتنمية صندوق استثمار العقاري.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="dark-bg about-card bg-cover" style="
-                    background-image: linear-gradient(
-                        rgba(0, 0, 0, 0.7),
-                        var(--dark-color)
-                      ),
-                      url(<?= get_template_directory_uri() ?>/assets/images/services/services__image-1.jpg);
-                  ">
+                        <div class="dark-bg about-card bg-cover" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7),var(--dark-color)), url(<?= get_template_directory_uri() ?>/assets/images/services/services__image-1.jpg);">
                             <div class="icon-box">
                                 <p class="subtitle"></p>
-                                <h3>Mission</h3>
-                                <p>
-                                    To develop innovative and high-quality real estate
-                                    projects that contribute to societies development and
-                                    attaining favorable returns for customers
-                                </p>
+                                <h3>رسالتنا</h3>
+                                <p>تلبية احتياجات وتوقعات سوق التطوير والاستثمار العقاري من خلال تقديم دراسات مالية وتصاميم العصرية تناسب النمط السعودي مع الحفاظ على هوية المملكة ومواكبة الرؤية 2030 من مباني سكنية وتجارية حديثة بأعلى معايير الجودة، وحلول حماية مُتطورة. وبالتالي نكون جزء نشط من ازدهار الاقتصاد الوطني والمُساهمة بدور فعّال في مواكبة المملكة مع أنماط الحياة العالمية.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="light-bg about-card bg-cover" style="
-                    background-image: linear-gradient(
-                        rgba(255, 255, 255, 0.7),
-                        var(--light)
-                      ),
-                      url();
-                  ">
+                        <div class="light-bg about-card bg-cover" style="background-image: linear-gradient(rgba(255, 255, 255, 0.7),var(--light)),url();">
                             <div class="icon-box">
                                 <p class="subtitle"></p>
-                                <h3>Values</h3>
-                                <p>
-                                    Trust. Quality. Transparency. Innovation. Client’s
-                                    Satisfaction
-                                </p>
+                                <h3>عن التصاميم</h3>
+                                <p>نعمل في مكتب العطاس للاستشارات على الإبداع والابتكار في تصاميمنا للوحدات السكنية والتجارية، فبين الجمال واستثمار المساحات تكمن تصاميمنا، مما يضمن لعملائنا أفضل خيار للعمل معنا.</p>
                             </div>
                         </div>
                     </div>
@@ -101,17 +61,11 @@
             <div class="about__chairman section-padding">
                 <div class="container">
                     <div class="section__number wow animate__animated animate__fadeInUp">
-                        <h2>Intro</h2>
+                        <h2>أهدافنا</h2>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-7">
-                            <div class="about__intro-img-section bg-cover" style="
-                      background-image: linear-gradient(
-                          hsla(0, 0%, 87%, 0),
-                          hsla(0, 0%, 88%, 0)
-                        ),
-                        url(<?= get_template_directory_uri() ?>/assets/images/about/ab.jpg);
-                    ">
+                            <div class="about__intro-img-section bg-cover" style="background-image: linear-gradient(hsla(0, 0%, 87%, 0),hsla(0, 0%, 88%, 0)),url(<?= get_template_directory_uri() ?>/assets/images/about/ab.jpg);">
                                 <div class="gray-bg wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                                     <div class="img-holder">
                                         <img src="<?= get_template_directory_uri() ?>/assets/images/about/10.png" alt="" class="img-responsive wow animate__animated animate__fadeInLeft" data-wow-delay="1.6s" />
@@ -123,7 +77,10 @@
                         </div>
                         <div class="col-lg-6 col-md-5">
                             <div class="about__text-body wow animate__animated animate__fadeInRight" data-wow-delay=".9s">
-                                <h3>More than 10 years of giving</h3>
+                                <h3>تحسين جودة المباني</h3>
+                                <h3>رفع جودة الحياة للمجتمع</h3>
+                                <h3>خلق بيئة مُحفزة للابتكار</h3>
+                                <h3>تبني المسؤولية المُجتمعية</h3>
                             </div>
                         </div>
                     </div>
@@ -210,7 +167,6 @@
               "></div>
             </div>
         </section>
-
         <!-- strategy -->
         <section id="strategy" class="section home-section image-content section-padding" data-scroll-index="2">
             <div class="container">
@@ -221,7 +177,7 @@
                     <div class="col-lg-9">
                         <div class="section__content">
                             <figure class="width-100 wow animate__animated animate__fadeInUp">
-                                <img src="<?= get_template_directory_uri() ?>/assets/images/strategy/strategy-2.svg" title="Alattas Strategy" alt="Alattas Strategy" data-wow-delay="1.6s" />
+                                <img src="<?= get_template_directory_uri() ?>/assets/images/strategy/strategy-2.png" title="Alattas Strategy" alt="Alattas Strategy" data-wow-delay="1.6s" />
                             </figure>
                         </div>
                     </div>
@@ -273,7 +229,6 @@
                 </div>
             </div>
         </section>
-
         <!-- projects in figures -->
         <section class="projects-figures section-padding">
             <div class="container">
@@ -328,7 +283,6 @@
                 </div>
             </div>
         </section>
-
         <!-- portfolio list  -->
         <section id="portfolio-list" class="portfolio-list section-padding bottom-only">
             <div class="container">
@@ -478,7 +432,6 @@
                 </div>
             </div>
         </section>
-
         <!-- info -->
         <section id="info" class="section info section-padding" data-module="info">
             <div id="info-wrap" class="container">
@@ -678,7 +631,6 @@
                 </div>
             </div>
         </section>
-
         <!-- clients -->
         <section id="clients" class="clients section section-padding" data-scroll-index="5">
             <div class="container">
@@ -724,7 +676,6 @@
                 </div>
             </div>
         </section>
-
         <!-- contact us -->
         <section id="contact" class="contact section-padding" style="background: url(<?= get_template_directory_uri() ?>/assets/images/contact/pattern.png) repeat center #222222;">
             <div class="container">

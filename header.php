@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang='ar'>
+<!-- language_attributes();  -->
 
 <head>
     <meta charset="<?= bloginfo('charset') ?>" />
@@ -25,11 +26,11 @@
 
 <body data-loaded="false">
     <!-- Preloader -->
-    <!-- <div id="preloader" class="preloader">
+    <div id="preloader" class="preloader">
         <div class="preloader__container">
-            <div class="preloader__logo">روح</div>
+            <div class="preloader__logo"> روح</div>
         </div>
-    </div> -->
+    </div>
     <!-- Start Header -->
     <header id="header" class="header" role="banner" data-module="header" data-navopen="false">
         <div class="header__wrap">
@@ -93,16 +94,11 @@
                                 <a href="index.html#contact" title="Contact" class="link" data-scroll-nav="6">
                                     Contact</a>
                             </li>
+                            <!-- <li class="menu-item language">
+                                <a class="AGC active" title="sumou" href="./ltr/index.html">E</a>
+                            </li> -->
                         </ul>
                     </nav>
-                    <ul class="language-selector list">
-                        <li>
-                            <a class="AGC active" title="سمو العربية">ع</a>
-                        </li>
-                        <li>
-                            <a class="AGC" title="Alattas" href="./ltr/index.html">E</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
