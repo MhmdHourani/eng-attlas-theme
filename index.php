@@ -26,7 +26,7 @@
             </div>
         </section>
         <!-- about -->
-        <section id="about" class="section about" data-scroll-index="1">
+        <!-- <section id="about" class="section about" data-scroll-index="1">
             <div class="about__three-boxes animate__fadeInUp wow animate__animated">
                 <div class="row">
                     <div class="col-lg-4">
@@ -86,60 +86,27 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- services -->
         <section id="services" class="section services section-padding section--dark-bg" style="background: url(<?= get_template_directory_uri() ?>/assets/images/contact/pattern.png) repeat center #222222;">
-            <div class="container">
+            <div class="container" style="padding-inline: 30px;text-align: justify;">
                 <div class="section__number wow animate__animated animate__fadeInDown light">
                     <h2>About Alattas</h2>
                 </div>
                 <div class="services__list">
                     <div class="row">
+
                         <div class="col-lg-6">
                             <div class="wow animate__animated animate__fadeInUp" data-wow-delay="{{0.2*i | round(2)}}s">
                                 <div class="icon-box">
-                                    <h3>Ownership &amp; Activity</h3>
+                                    <h3>رسالتنا</h3>
                                     <div class="divider"></div>
                                     <p>
-                                        Adopting its name as a principle, Alattas has conducted
-                                        its business with uniqueness in activeness, and
-                                        exploited its experience for excellence to develop
-                                        innovatively, execute with quality, and invested with an
-                                        intelligent investment methodology.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="{{0.2*i | round(2)}}s">
-                                <div class="icon-box">
-                                    <h3>Uniqueness and Distinction</h3>
-                                    <div class="divider"></div>
-                                    <p>
-                                        Alattas has the unique ability to invent and innovate in
-                                        the area of development. Alattas has accomplished
-                                        qualitative real estate projects in various fields.
-                                        Alattas has provided an integrated development system,
-                                        starting with opportunities consideration, through
-                                        planning, engineering, financial planning, marketing
-                                        strategy, and executing with professional project
-                                        management, to project delivery.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="{{0.2*i | round(2)}}s">
-                                <div class="icon-box">
-                                    <h3>Operational Achievements</h3>
-                                    <div class="divider"></div>
-                                    <p>
-                                        Our local, regional and international operations
-                                        entitled us to win many prestigious awards for our
-                                        outstanding performance in the real estate industry.
-                                        Since 2008, Alattas has developed about 7 million square
-                                        meters of land and is working currently on projects
-                                        adding 45 million square meters.
+                                        تلبية احتياجات وتوقعات سوق التطوير والاستثمار العقاري من خلال
+                                        تقديم دراسات مالية وتصاميم العصرية تناسب النمط السعودي مع الحفاظ
+                                        على هوية المملكة ومواكبة الرؤية 2030 من مباني سكنية وتجارية حديثة
+                                        بأعلى معايير الجودة، وحلول حماية مُتطورة. وبالتالي نكون جزء
+                                        نشط من ازدهار الاقتصاد الوطني والمُساهمة بدور فعّال في مواكبة المملكة مع أنماط الحياة العالمية.
                                     </p>
                                 </div>
                             </div>
@@ -148,14 +115,43 @@
                         <div class="col-lg-6">
                             <div class="wow animate__animated animate__fadeInUp" data-wow-delay="{{0.2*i | round(2)}}s">
                                 <div class="icon-box">
-                                    <h3>Aspirations</h3>
+                                    <h3>رؤيتنا</h3>
                                     <div class="divider"></div>
                                     <p>
-                                        Alattas is currently working on develop large mixed-use
-                                        projects that shall meet the requirements and
-                                        expectations both customers and investors, aiming to
-                                        fulfill the needs of the community and future
-                                        generations.
+                                        أن نصل إلى الريادة في مجال التصميم العصري والتطوير والاستثمار العقاري
+                                        وأن نكون نقطة بداية لكل مطور في تنفيذ الوحدات السكنية في
+                                        المملكة العربية السعودية بمواصفات
+                                        ومقاييس تناسب هذه المرحلة لنكون معاً لتنمية صندوق استثمار العقاري.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="{{0.2*i | round(2)}}s">
+                                <div class="icon-box">
+                                    <h3>عن التصاميم</h3>
+                                    <div class="divider"></div>
+                                    <p>
+                                        نعمل في مكتب العطاس للاستشارات على الإبداع والابتكار في تصاميمنا للوحدات السكنية والتجارية، فبين الجمال واستثمار المساحات تكمن تصاميمنا، مما يضمن لعملائنا أفضل خيار للعمل معنا.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="{{0.2*i | round(2)}}s">
+                                <div class="icon-box">
+                                    <h3>أهدافنا</h3>
+                                    <div class="divider"></div>
+                                    <p>
+                                        تحسين جودة المباني
+                                        <br />
+                                        رفع جودة الحياة للمجتمع .
+                                        <br />
+                                        خلق بيئة مُحفزة للابتكار .
+                                        <br />
+                                        تبني المسؤولية المُجتمعية
+
                                     </p>
                                 </div>
                             </div>
@@ -176,9 +172,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="section__content">
-                            <figure class="width-100 wow animate__animated animate__fadeInUp">
-                                <img src="<?= get_template_directory_uri() ?>/assets/images/strategy/strategy-2.png" title="Alattas Strategy" alt="Alattas Strategy" data-wow-delay="1.6s" />
-                            </figure>
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/strategy/strategy-1.png" title="Alattas Strategy" alt="Alattas Strategy" data-wow-delay="1.6s" />
                         </div>
                     </div>
                 </div>
@@ -188,49 +182,135 @@
         <section id="projects" class="section portfolio section-padding" id="portfolio" data-scroll-index="3" data-module="filter">
             <div class="container">
                 <div class="section__number wow animate__animated animate__fadeInDown">
-                    <h2>Projects</h2>
+                    <h2>الاقسام</h2>
                 </div>
                 <div class="section__content">
                     <div class="text-content wow animate__animated animate__fadeInUp">
                         <div class="section__title">
-                            <h3>Our Development Strategy</h3>
+                            <h3>قسم الهندسي</h3>
                         </div>
                         <p>
-                            Our project development strategy involves planning, designing,
-                            and carrying out infrastructural and superstructural work,
-                            starting from the development process, and economic
-                            feasibility study as well as the planning, engineering,
-                            financial planning studies, marketing and sales strategies;
-                            the preparation of the project development plan, followed by a
-                            process of design; accreditation by the authorities, then the
-                            project management execution; and delivery; and finally
-                            provision of solutions for management, operation, and
-                            maintenance.
+                            نعمل على جميع انواع المشاريع والمبانى بمختلف تخصصاتها الوظيفية وعلى مختلف اطرزتها المعمارية ومهما كان التنوع في ثقافة المجتمعات المحيطة بها وكذلك على مختلف ميزانياتها ويقدم القسم الخدمات الآتية:
+                            <br />
+                            إعداد كافة المخططات من مختلف من التصميمات المعمارية - الإنشائية - الصحية - الكهربائية - التكييف - إدارة الدخان والحريق - التنسيق الحدائق - التصميم الحضري والعمراني للقرى السياحية والمنتجعات والمدن
+                            <br />
+                        </p>
+                        <ul>
+                            <li>
+                                تقديم المناظير ثلاثية الأبعاد للتصاميم الداخلية والخارجية.
+                            </li>
+                            <li>
+                                تقديم كافة خدمات الإخراج بالفوتوشوب.
+                            </li>
+                            <li>
+                                إعداد كافة الرسومات التنفيذية التفصيلية.
+                            </li>
+                            <li>
+                                خدمة تعديل التصاميم والمخططات الهندسية القائمة بالفعل.
+                            </li>
+                            <li>
+                                اصدار وتعديل وتسوية وضع رخص البناء حسب كود البناء الجديد.
+                            </li>
+                            <li>
+                                تسجيل الصكوك واستخراج الكروكيات.
+                            </li>
+                        </ul>
+                        <p>
+                            أى كل ما له علاقة بتصميم المبنى او المنشأة الى ان يتم تنفيذها على أرض الواقع
+                            جميع مهندسينا بهذا القسم لا تقل خبراتهم عن 5 سنوات ولهم خبرة عمل بدول الخليج وملمين بالذوق العام وقوانين البناء واشتراطات البلديات.
+                            نحرص دائما على ان يحصل عميلنا على مشروعه بأوضح طريقة وبدقة عالية بالتفاصيل وفى الوقت المناسب.
                         </p>
                     </div>
                     <div class="text-content wow animate__animated animate__fadeInUp">
                         <div class="section__title">
-                            <h3>Our Project Management</h3>
+                            <h3>قسم معماري</h3>
                         </div>
-                        <p>
-                            Our projects are managed through customizing a special
-                            organizational structure for each project, which includes
-                            specialized competencies and expertise in project management,
-                            working on applying global systems of project management to
-                            ensure the minimizing of risks, capitalizing on investment
-                            opportunities for each project according to the best
-                            practices, with a local vision to generate real estate
-                            products, within the minimum time, that are cost-conscious and
-                            high quality, contributing to the development of the region
-                            and society in accordance with the Kingdom's Vision 2030, and
-                            attaining lucrative returns for the clients.
-                        </p>
+                        <ul>
+                            <li>
+                                - ننقوم بعمل التصميمات المعمارية لكافة المشاريع (السكنية - التجارية - الإدارية - الثقافية - التعليمية - الطبية - السياحية - الفندقية - الترفيهية).
+                            </li>
+                            <li>
+                                - لدينا مجموعة من المصممين والمهندسين المتخصصين على أعلى مستوى من الكفاءة والخبرة للتصميم الداخلي والخارجي والعمل على التصميمات بأرقى الأفكار المعمارية الحديثة التي تناسب جميع الاتجاهات والأذواق، والإشراف على تنفيذها.
+                            </li>
+                            <li>
+                                - يتم التصميم باستخدام برامج التصميم المعماري الحاسوبية الثري دي ماكس والأوتوكاد والفوتوشوب وإن ديزين.
+                            </li>
+                            <li>
+                                - اختيار الألوان و مواد التشطيب المثالية لكل مشروع.
+                            </li>
+                            <li>
+                                - امكانية العمل جميع على الطرز المعمارية (حديث / كلاسيك / عربي / إسلامي / اندلسى / تراثي مناطقي....الخ).
+                            </li>
+                            <li>
+                                - التعامل مع كافة الجهات المعنية الرسمية والمتابعة واستخراج التراخيص بالاضافة الى موافقات المياه والهاتف والكهرباء والتخطيط العمراني والدفاع المدني.
+                            </li>
+                            <li>
+                                - نقدم الحلول المعمارية للسكن المريح ونقل المفهوم عن بيت العمر من الخيال إلى الواقع مع تتشييد التصميمات المعمارية وحسب متطلبات الأمانة وكذلك التصميم الداخلي والواجهات والديكور وإمكانية عمل مقاطع فيديو ثلاثية الأبعاد للتصميم والتجول داخله مع امكانية تغيير الإكساء والإنارة والتشطيبات للوصول إلى رضا العميل.
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="text-content wow animate__animated animate__fadeInUp">
+                        <div class="section__title">
+                            <h3>قسم الاستشارات والاشراف الهندسي</h3>
+                        </div>
+                        <ul>
+                            <li>- تحليل وتصميم المنشآت الخرسانية والحديدية لمختلف المشاريع السكنية والصناعية والتجارية والفندقية والإدارية والتعليمية والصحية والترفيهية ومحطات مياه الشرب والصرف الصحي والسدود والخزانات والأنفاق والجسور وغيرها، بالاضافة الى دراسة مدى تحمل ومقاومة هذه المنشآت للأحمال الناتجة عن الاستخدام أو عن تأثير الرياح والهزات الأرضية للوصول إلى تصميم آمن وملائم للمشاريع وفي حدود التكاليف المحددة.</li>
+                            <li>- التصميم و الإشراف على تنفيذ الطرق والجسور والأرصفة البحرية وأنظمة النقل بشكل يتوافق مع الاحتياجات الفورية والمستقبلية، ووضع المواصفات الهندسية الخاصة بتلك الأنظمة.</li>
+                            <li>- دراسة الخصائص الهندسية الكيميائية والفيزيائية والميكانيكية لمواد التربة ومكوناتها وكيفية التعامل معها وتقنياتها ومدى قوة تحملها للأحمال، وإيجاد الحلول المناسبة لكافة المشاكل الناتجة منها واختيار أفضل الطرق واكثرها أمانًا لتصميم وتنفيذ أساسات المنشآت وخلافه، بالتعاون مع مكاتب متخصصة مرخصة بإجراء اختبارات وفحوصات التربة.</li>
+                        </ul>
+
+                    </div>
+                    <div class="text-content wow animate__animated animate__fadeInUp">
+                        <div class="section__title">
+                            <h3>قسم الاعمال الداخلية والتشطيبات</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                تنفيذ جميع أعمال التأسيس و التشطيبات والديكور ، حيث نتسلم منزلك أو مكتبك أو وحدتك التجارية ونقوم بجميع الأعمال التأسيسية مثل الصرف الصحى والكهرباء إلى الديكور و جميع التشطيبات الداخلية حيث أننا ندرك جيد فن التعامل مع الأمور المعمارية وتفاصيلها خاصة الداخلية منها كما ندرك جيدا ماهية الخامات وكيفية إستخدامها لخلق البيئة الجمالية والصحية لعملائنا ، فدائما ما نسعى إلى توفير جميع الخخدمات الداخلية والتى تتمثل فى </li>
+                            </li>
+                            <li>
+                                أولا: التخطيط والتقسيم وتهيئة مكان أو الوحدة المعمارية.
+                            </li>
+                            <li>
+                                ثانيا: الأعمال الأسمنتية و الجيبسون بورد .
+                            </li>
+                            <li>
+                                ثالثا: أعمال الصرف الصحى والكهرباء والأخشاب.
+                            </li>
+                            <li>
+                                رابعا: أعمال الدهانات وإختيار الألوان المناسبة للوحدة.
+                            </li>
+                            <li>
+                                خامسا: مركز النشاط وبؤرة التركيز.
+                            </li>
+                            <li>
+                                سادسا: الخطوط والملمس والشكل العام
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="text-content wow animate__animated animate__fadeInUp">
+                        <div class="section__title">
+                            <h3>قسم دعم المطورين و رواد الاعمال</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                - تقديم الدعم للمطورين في مجال التطوير العقاري </li>
+                            <li>
+                                - دراسات مالية قبل البدء في تطوير المشروع واستخراج نسبة المطور ونسبة
+                                الارباح و عدد الشركاء والحصص لكل شريك و تكلفة المشروع وايرادات المشروع , مما يعي المطور
+                                موقف المشروع مجدي ام لا , ونقدم حلول هندسية و اخراج المشروع بالواجهات الخارجية مرندرة
+                                و الاشراف على المشروع و تنفيذه و عمل بروفايل للمشروع لتقديمه للجهات المعنية او للشركاء .
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
         </section>
         <!-- projects in figures -->
-        <section class="projects-figures section-padding">
+        <!-- <section class="projects-figures section-padding">
             <div class="container">
                 <div class="portfolio__innumbers wow animate__animated animate__fadeInUp">
                     <div class="section__number wow animate__animated animate__fadeInDown light">
@@ -282,9 +362,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- portfolio list  -->
-        <section id="portfolio-list" class="portfolio-list section-padding bottom-only">
+        <!-- <section id="portfolio-list" class="portfolio-list section-padding bottom-only">
             <div class="container">
                 <nav class="portfolio-list__filter">
                     <ul class="list">
@@ -431,7 +511,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- info -->
         <section id="info" class="section info section-padding" data-module="info">
             <div id="info-wrap" class="container">
@@ -640,21 +720,21 @@
                 <div class="clients__content wow animate__animated animate__fadeInUp">
                     <div id="clients-carousel" class="owl-carousel owl-theme clients__list wow fadeInUp">
                         <div class="client">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c1-1.png" alt="" />
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/1.jpg" alt="" />
                         </div>
                         <div class="client">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c2-1.png" alt="" />
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/2.jpg" alt="" />
                         </div>
                         <div class="client">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c3-1.png" alt="" />
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/3.jpg" alt="" />
                         </div>
                         <div class="client">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c4-1.png" alt="" />
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/4.jpg" alt="" />
                         </div>
                         <div class="client">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c5-1.png" alt="" />
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/clients/5.png" alt="" />
                         </div>
-                        <div class="client">
+                        <!-- <div class="client">
                             <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c6-1.png" alt="" />
                         </div>
                         <div class="client">
@@ -671,7 +751,7 @@
                         </div>
                         <div class="client">
                             <img src="<?= get_template_directory_uri() ?>/assets/images/clients/c11-1.png" alt="" />
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
