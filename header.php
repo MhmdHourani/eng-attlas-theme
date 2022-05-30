@@ -17,7 +17,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_template_directory_uri() ?>/assets/images/favicon/apple-icon-180x180.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="<?= get_template_directory_uri() ?>/assets/images/favicon/android-icon-192x192.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="<?= get_template_directory_uri() ?>/assets/images/favicon/favicon-32x32.png" />
-
     <link rel="icon" type="image/png" sizes="96x96" href="<?= get_template_directory_uri() ?>/assets/images/favicon/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="<?= get_template_directory_uri() ?>/assets/images/favicon/favicon-16x16.png" />
     <title><?= bloginfo('name') ?></title>
@@ -68,35 +67,42 @@
                     <nav class="nav-container" data-js="navigation" role="naviagation" data-module="navigation">
                         <ul class="nav list">
                             <li class="menu-item">
-                                <a href="index.html" title="Home" class="link"> Home</a>
+                                <a href="<?= home_url() ?>" title="Home" class="link">الرئيسية</a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#about" title="about" class="link" data-scroll-nav="1">
-                                    About</a>
+                                <a href="<?= home_url() ?>#about" title="about" class="link" data-scroll-nav="1">
+                                    من نحن
+                                </a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#strategy" title="strategy" class="link" data-scroll-nav="2">
-                                    Strategy</a>
+                                <a href="<?= home_url() ?>#vision" title="vision" class="link" data-scroll-nav="2">
+                                    رؤيتنا
+                                </a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#projects" title="projects" class="link" data-scroll-nav="3">
-                                    Projects</a>
+                                <a href="<?= home_url() ?>#design" title="design" class="link" data-scroll-nav="3">
+                                    عن التصاميم
+                                </a>
                             </li>
                             <li class="menu-item">
-                                <a href="document.html" title="Advertising Instructions and Templates" class="link">
-                                    Advertising Instructions and Templates</a>
+                                <a href="<?= home_url() ?>#info" title="ceo" class="link">
+                                    كلمة رئيس مجلس الادارة
+                                </a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#clients" title="Clients" class="link" data-scroll-nav="5">
-                                    Clients</a>
+                                <a href="<?= home_url() ?>#projects" title="projects" class="link" data-scroll-nav="5">
+                                    مشاريعنا</a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#contact" title="Contact" class="link" data-scroll-nav="6">
-                                    Contact</a>
+                                <a href="<?= home_url() ?>#servises" title="servises" class="link" data-scroll-nav="6">
+                                    خدماتنا
+                                </a>
                             </li>
-                            <!-- <li class="menu-item language">
-                                <a class="AGC active" title="sumou" href="./ltr/index.html">E</a>
-                            </li> -->
+                            <li class="menu-item">
+                                <a href="<?= home_url() ?>#contact" title="servises" class="link" data-scroll-nav="6">
+                                    تواصل
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>

@@ -94,6 +94,7 @@
 
     <a id="totop" href="index.html#" class="totop">TOP</a>
     <?php wp_footer(); ?>
+
     <!-- end Footer -->
 </body>
 

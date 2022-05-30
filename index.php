@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div class="page">
     <main class="main" role="main">
         <section class="section hero full-height" data-scroll-index="0" data-module="hero">
@@ -88,12 +89,12 @@
             </div>
         </section> -->
         <!-- services -->
-        <section id="services" class="section services section-padding section--dark-bg" style="background: url(<?= get_template_directory_uri() ?>/assets/images/contact/pattern.png) repeat center #222222;">
+        <section id="about" class="section services section-padding section--dark-bg" style="background: url(<?= get_template_directory_uri() ?>/assets/images/contact/pattern.png) repeat center #222222;">
             <div class="container" style="padding-inline: 30px;text-align: justify;">
                 <div class="section__number wow animate__animated animate__fadeInDown light">
                     <h2>About Alattas</h2>
                 </div>
-                <div class="services__list">
+                <div class="services__list" id="vision">
                     <div class="row">
 
                         <div class="col-lg-6">
@@ -179,8 +180,8 @@
             </div>
         </section>
         <!-- portfolio -->
-        <section id="projects" class="section portfolio section-padding" id="portfolio" data-scroll-index="3" data-module="filter">
-            <div class="container">
+        <section id="design" class="section portfolio section-padding" id="portfolio" data-scroll-index="3" data-module="filter">
+            <div class="container px-3" style="padding-inline: 30px;">
                 <div class="section__number wow animate__animated animate__fadeInDown">
                     <h2>الاقسام</h2>
                 </div>
