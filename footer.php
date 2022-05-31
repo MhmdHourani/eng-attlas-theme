@@ -21,31 +21,41 @@
             <div class="footer__inner">
                 <ul class="footer-nav list" data-module="navigation">
                     <li id="menu-item-772">
-                        <a href="index.html" title="Home" class="link"> Home</a>
+                        <a href="<?= home_url() ?>" title="Home" class="link">الرئيسية</a>
                     </li>
                     <li id="menu-item-777">
-                        <a href="#about" class="link" title="About" data-scroll-nav="1">
-                            About</a>
+                        <a href="<?= home_url() ?>#about" title="about" class="link" data-scroll-nav="1">
+                            من نحن
+                        </a>
                     </li>
                     <li id="menu-item-778">
-                        <a href="#strategy" title="Strategy" class="link" data-scroll-nav="2">
-                            Strategy</a>
+                        <a href="<?= home_url() ?>#vision" title="vision" class="link" data-scroll-nav="2">
+                            رؤيتنا
+                        </a>
                     </li>
                     <li id="menu-item-779">
-                        <a href="#projects" title="Projects" class="link" data-scroll-nav="3">
-                            Projects</a>
+                        <a href="<?= home_url() ?>#design" title="design" class="link" data-scroll-nav="3">
+                            عن التصاميم
+                        </a>
                     </li>
                     <li id="menu-item-776">
-                        <a href="document.html" title="Instructions and Templates" class="link">
-                            Advertising Instructions and Templates</a>
+                        <a href="<?= home_url() ?>#info" title="ceo" class="link">
+                            كلمة رئيس مجلس الادارة
+                        </a>
                     </li>
                     <li id="menu-item-780">
-                        <a href="#clients" title="Clients" class="link" data-scroll-nav="5">
-                            Clients</a>
+                        <a href="<?= home_url() ?>#projects" title="projects" class="link" data-scroll-nav="5">
+                            مشاريعنا</a>
                     </li>
                     <li id="menu-item-781">
-                        <a href="#contact" title="Contact" class="link" data-scroll-nav="6">
-                            Contact</a>
+                        <a href="<?= home_url() ?>#servises" title="servises" class="link" data-scroll-nav="6">
+                            خدماتنا
+                        </a>
+                    </li>
+                    <li id="menu-item-781">
+                        <a href="<?= home_url() ?>#contact" title="servises" class="link" data-scroll-nav="6">
+                            تواصل
+                        </a>
                     </li>
                 </ul>
                 <ul class="footer-nav footer-nav--social list">
