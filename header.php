@@ -19,7 +19,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="<?= get_template_directory_uri() ?>/assets/images/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="<?= get_template_directory_uri() ?>/assets/images/favicon/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="<?= get_template_directory_uri() ?>/assets/images/favicon/favicon-16x16.png" />
-    <title><?= bloginfo('name') ?></title>
     <?php wp_head(); ?>
 </head>
 
@@ -90,16 +89,12 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="<?= home_url() ?>#projects" title="projects" class="link" data-scroll-nav="5">
-                                    مشاريعنا</a>
-                            </li>
-                            <li class="menu-item">
                                 <a href="<?= home_url() ?>#servises" title="servises" class="link" data-scroll-nav="6">
                                     خدماتنا
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="<?= home_url() ?>#contact" title="servises" class="link" data-scroll-nav="6">
+                                <a href="<?= home_url() ?>#contact" title="contact" class="link" data-scroll-nav="6">
                                     تواصل
                                 </a>
                             </li>
