@@ -419,6 +419,102 @@
             </div>
         </section>
         <!-- info -->
+        <!-- prject list  -->
+        <section id="prject-list" class="portfolio-list section-padding bottom-only">
+            <div class="container" id="servises">
+                <div class="section__number wow animate__animated animate__fadeInDown">
+                    <h2>المشاريع</h2>
+                </div>
+                <div class="portfolio-list__items scrollbar wow animate__animated animate__fadeInUp">
+                    <div class="list" data-js="filter-list">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
+                                <a title="project1" title="Tanal" href="<?= get_template_directory_uri() ?>/engineering-department" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/1.png" alt="project1" />
+                                    <div class="content" style=" background-color: #00000082;">
+                                        <h3>شقق العوالي مخطط الريوة النموذجي</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix western-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/architectural-department" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/2.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>مشروع فندق المطار بحي الريان</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix central-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-consulting-supervision-engineering" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/3.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>شقق الفيحاء</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix central-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-interior-works-finishes" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/4.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>مشروع شقق تمليك ببطحاء</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-support-developers-entrepreneurs" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/5.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>قسم دعم المطورين و رواد الاعمال</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-support-developers-entrepreneurs" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/6.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>تطوير مخطط القناديل</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-support-developers-entrepreneurs" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/7.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>فلة التميمي بالرياض</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-support-developers-entrepreneurs" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/8.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>مركز تجاري بنجران</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 mix eastern-en">
+                                <a title="project1" title="Ali Makkah" href="<?= get_template_directory_uri() ?>/department-support-developers-entrepreneurs" class="portfolio__item">
+                                    <img src="<?= get_template_directory_uri() ?>/assets/images/project/9.png" alt="project1" />
+                                    <div class="content" style="background-color: #00000082;">
+                                        <h3>فندق الشموخ</h3>
+                                    </div>
+                                    <div class="pattern pattern--portfolio bg-cover hover-slide" style="background-image: url(<?= get_template_directory_uri() ?>/assets/images/portfolio/admin-ajax-3.png);"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- info -->
         <section id="info" class="section info section-padding" data-module="info">
             <div id="info-wrap" class="container">
                 <div class="section__number wow animate__animated animate__fadeInDown">
@@ -686,7 +782,7 @@
                                         </p>
                                     </div>
                                     <div class="contact__map">
-                                        <img class="wow fadeInUp" src="<?= get_template_directory_uri() ?>/assets/images/contact/map.png" loading="lazy" alt="soumou saudi map">
+                                        <img style="width: 100%;" class="wow fadeInUp" src="<?= get_template_directory_uri() ?>/assets/images/contact/map.png" loading="lazy" alt="soumou saudi map">
                                     </div>
                                 </div>
                             </div>

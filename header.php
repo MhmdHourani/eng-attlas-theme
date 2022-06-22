@@ -98,6 +98,11 @@
                                     تواصل
                                 </a>
                             </li>
+                            <li class="menu-item">
+                                <a href="<?= home_url() ?>#prject-list" title="prject-list" class="link" data-scroll-nav="6">
+                                    مشاريعنا
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
